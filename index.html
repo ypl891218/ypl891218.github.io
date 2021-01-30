@@ -1,514 +1,268 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://ypl891218.github.io/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+<html lang="en">
+    <head>
+    <!-- favicon -->
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
-
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
+        <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+        <link rel="icon" href="/img/favicon.png" type="image/x-icon">
     
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+    <!-- locale -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <!--Description-->
+    
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="John Doe">
+    <!-- og:description -->
+    <meta name="og:description" content="">
+    <!-- color -->
+    <meta name="theme-color" content="#ffffff">
+    <!--Author-->
+    
+        <meta name="author" content="John Doe">
+    
+    <!--Open Graph Title-->
+    
+    <!--Open Graph type-->
+    <meta property="og:type" content="website"/>
+    <!--Page Cover-->
+    
+    <meta property="og:image" content="http://ypl891218.github.io/img/450x450/seira.jpg">
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Hexo"/>
+    <!-- Title -->
+    
+    <title>Hexo</title>
+    <!-- framework CSS -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="stylesheet">    
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    
+<link rel="stylesheet" href="/css/index.css">
 
-  
+    
+<link rel="stylesheet" href="/css/component.css">
+
+    
+<script src="/js/modernizr.custom.js"></script>
+
+    <!-- jquery -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 <meta name="generator" content="Hexo 5.3.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+    <body class="has-background-light">
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section"></div>
+        </div>
+        <nav class="navbar is-fixed-top is-white has-bg-shadow" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="/img/logo2.svg" height="28" alt="logo">
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                
+                    <a class="navbar-item" href="/about">
+                    <!-- <span class="icon"><i class="fas fa-about"> </i></span> -->
+                    &nbsp;About </a>
+                
+                    <a class="navbar-item" href="/friends">
+                    <!-- <span class="icon"><i class="fas fa-friends"> </i></span> -->
+                    &nbsp;Friends </a>
+                
+                
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                            
+                            
+                                <a class="button has-transparent-bg" target="_blank" rel="noopener" href="https://gitlab.com/sira313"><span class="icon"> <i class="fab fa-gitlab"></i> </span></a>
+                            
+                            
+                            
+                                <a class="button has-transparent-bg" target="_blank" rel="noopener" href="https://twitter.com/aflasio"><span class="icon"> <i class="fab fa-twitter"></i> </span></a>
+                            
+                            
+                            
+                                <a class="button has-transparent-bg" target="_blank" rel="noopener" href="https://facebook.com/aflasio.art"><span class="icon"> <i class="fab fa-facebook"></i> </span></a>
+                            
+                            
+                            
+                                <a class="button has-transparent-bg" href="mailto:sira.argia@gmail.com" title="email"> <span class="icon"><i class="fas fa-envelope"></i> </span></a>
+                            
+                            
+                            
+                                <a class="button has-transparent-bg" target="_blank" rel="noopener" href="https://t.me/aflasio"><span class="icon"> <i class="fab fa-telegram"></i> </span></a>
+                            
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://ypl891218.github.io"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2021/01/30/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2021-01-30T03:39:57.992Z" itemprop="datePublished">2021-01-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/01/30/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://ypl891218.github.io/2021/01/30/hello-world/" data-id="ckkj64vjj0000lrrpej7735wr" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-台大資工 大一下修課心得" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/07/26/%E5%8F%B0%E5%A4%A7%E8%B3%87%E5%B7%A5%20%E5%A4%A7%E4%B8%80%E4%B8%8B%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/" class="article-date">
-  <time class="dt-published" datetime="2020-07-26T14:59:48.000Z" itemprop="datePublished">2020-07-26</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/07/26/%E5%8F%B0%E5%A4%A7%E8%B3%87%E5%B7%A5%20%E5%A4%A7%E4%B8%80%E4%B8%8B%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/">台大資工 大一下修課心得</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>這學期大概是蠻多人會終生難忘的一個學期，正要開學的前幾天突然因為疫情爆發，導致開學日延後兩星期。恰好讓我從沒選上離散的陰霾中，花兩個星期振作，用Python刷了一些LeetCode，順利考上李宏毅的ML班(其實過程中還是有一些故事，並沒有那麼順利XD)。如果沒有延後開學，我就沒那麼篤定我會考上了，畢竟我連Python語法都還搞不太清楚哈哈。</p>
-<p>這學期我的學習狀況也隨著疫情的發展，有了非常大的改變，例如在疫情最嚴峻的時期，我每一堂課都在線上進行，每天我的行程就是從早到晚窩在宿舍看線上課程，起初還覺得很輕鬆愜意，但是後期我便開始渴望與其他人接觸，或出外走走。但整體而言，我依舊覺得我蠻習慣也喜歡線上教學，只要有系館、系隊這種社交的平台讓我調適即可。</p>
-<p>以下是我這學期修的課</p>
-<ul>
-<li>微積分甲下</li>
-<li>普通物理學甲下</li>
-<li>資料結構與演算法</li>
-<li>機率</li>
-<li>機器學習(電機李宏毅)</li>
-<li>數位系統與實驗</li>
-</ul>
-<hr>
-<h3 id="微積分甲下"><a href="#微積分甲下" class="headerlink" title="微積分甲下"></a>微積分甲下</h3><ul>
-<li>老師：楊策仲</li>
-<li>教材：<a target="_blank" rel="noopener" href="https://www.amazon.com/Calculus-Early-Transcendentals-James-Stewart/dp/1285741552">Calculus: Early Transcendentals 8th Edition</a></li>
-<li>性質：大一必修</li>
-<li>評分：35%期中、35%期末、30%平時(小考、作業)、幾乎沒調分(?</li>
-</ul>
-<p>上學期的微積分課堂上，我就已經把大部分時間都拿來讀那本小提琴課本了，這學期因為疫情而線上上課之後，我就把這個學習模式推到更極端，我完全沒看過任何線上課程，只靠課本過活。就算後來恢復實體課程之後，我也就只是回到上學期的學習模式而已。</p>
-<p>經過這一整年的實驗，我覺得讀課本是可以被複製的學習模式，至少是在教材已經十分完善的基礎課如微積分。不過如果選到楊策仲這種好老師的時候，大家還是好好享受他的教學吧，聽說很多人會刻意離開原班來聽策仲班呢。話說老師偶爾會在課堂上講一些台大愛考的題型，如果有聽到的話，還是蠻賺的XD</p>
-<p>結束一整年的微積分後，我其實覺得蠻不捨的，因為接下來三年，如果我沒去上數學系的課，我就不會再上到規劃這麼完善的數學課了。至少依我個人的看法，系上的線性代數跟機率，規劃都有一些瑕疵，像是不同班之間學到的東西可能差異不小，就算是同個老師的課，每年可能也會有不小的差異。</p>
-<h3 id="普通物理學甲下"><a href="#普通物理學甲下" class="headerlink" title="普通物理學甲下"></a>普通物理學甲下</h3><ul>
-<li>老師：林俊達</li>
-<li>教材：<a target="_blank" rel="noopener" href="https://tsanghai.com.tw/book_detail.php?c=264&no=3292">Principles of Physics: A Calculus Approach, 2nd Edition</a></li>
-<li>性質：大一必修</li>
-<li>評分：35%期中、35%期末、30%程式作業(Vpython)、甜</li>
-</ul>
-<p>一如俊達上學期的風格，上課總是摻雜著很多被可怕數學包裝的物理知識，不過不用害怕，因為沒出現在課本上的內容，就不會出現在期中期末考卷上。</p>
-<p>我私心覺得林俊達教授是我會懷念的老師，他教學的熱情絕對會讓許多同學忘不掉。雖然很多上課講的東西我都沒學會，我只是庸俗地把課本讀完而已，但我永遠會記得他在台上賣力地講解，而我從手機中抬起頭，恰好聽懂了一些神奇物理時的那種感動。</p>
-<h3 id="資料結構與演算法-DSA"><a href="#資料結構與演算法-DSA" class="headerlink" title="資料結構與演算法(DSA)"></a>資料結構與演算法(DSA)</h3><ul>
-<li>老師：林軒田</li>
-<li>教材：<a target="_blank" rel="noopener" href="https://www.csie.ntu.edu.tw/~htlin/course/dsa20spring/index.php">DSA Homepage</a></li>
-<li>性質：大一必修</li>
-<li>評分：60%作業、40%Final Project、小甜、20%A+、30%A</li>
-</ul>
-<p>這學期因應疫情，全面改成YouTube直播教學，並搭配Slido，前幾週在還沒失去新鮮感的時候，Slido上超熱鬧的XD</p>
-<p>先說這門課的優點，老師講課非常鉅細靡遺，認真聽的話絕對能對上課提過的資料結構有很深刻了解。老師上課也很在乎學生的感受，他會回答每個學生的發問(常常還跟課堂無關)，如果有人希望老師再換個方式講，老師大多時候也都會配合。林軒田老師同時也是本屆的大一導師，所以他也常常在課堂說，歡迎大家跟他聊天、吃飯。</p>
-<p>DSA身為資工大一必修，在我對他寄予厚望之下，我有許多覺得可以改進的地方，所謂愛之深責之切，並沒有任何的惡意，純粹提出一些觀點，拋磚引玉罷了。以下是一些問題：</p>
-<ol>
-<li>課程內容廣度</li>
-<li>無Online Judge</li>
-<li>作業評分方式易誤導學生</li>
-</ol>
-<p>相較於隔壁蔡欣穆班的DSA，我們班的廣度明顯低了很多，舉例來說，隔壁班有講KMP，講到樹的時候有提過樹重心、樹直徑，還講了圖和DFS、BFS，當然差異絕對不僅於此。當然不是內容越多就越好，要真的讓學生吸收進去才是重點，但我覺得林軒田老師的上課內容已經有點過於簡單了，除了最後的紅黑樹，其他週的內容大概很多人都從頭2倍速到尾吧。</p>
-<p>接下來的問題都集中在作業的部分，讓最多人栽在上頭，也讓最多人有意見的就是程式作業沒有Online Judge，每次作業都只有一次機會(除了編譯錯誤之外，歡迎糾正)，一但Wrong Answer就沒救了，當然如果你很細心，交作業前都會把各種邊界測資都處理得很好，那沒有Online Judge就不會是個大問題。弱者如我，還是覺得就算沒有OJ，至少也該有一些補償的措施，例如在公布結果後，更改code重新上傳可以打八折等等。</p>
-<p>另外一個可能讓人不滿的點是手寫作業的Bonus題，以後修林軒田老師的課的時候，要切記Bonus題跟一般的題目別無兩樣，寫了之後分數不會補到其他錯的題目，也不會補到其他次作業，所謂的Bonus就只是讓作業多一兩題的話術，最後都會一分一分算進學期總成績，千萬不能不寫。</p>
-<p>因為疫情的關係，這學期取消了期中考，所以100%作業成績，又作業其實不難，大家的成績都很高，如果不小心一點就很容易被送下去QQ。聽說林軒田老師的ML也是如此，希望我以後能記取教訓。</p>
-<h3 id="機率"><a href="#機率" class="headerlink" title="機率"></a>機率</h3><ul>
-<li>老師：林守德</li>
-<li>教材：自編簡報</li>
-<li>性質：大二必修</li>
-<li>評分：35%期中、35%期末、30%Final Project、小甜</li>
-</ul>
-<p>繼上學期修了線代，發現先修好像可行之後，我就決定再來修個機率，把系上必修的數學課們都修一修，我以為會有差不多的體驗，沒想到林守德機率跟上學期我修的呂學一線代，根本就是兩種截然不同的數學課。</p>
-<p>這門機率課的內容都是從高中教過的內容出發，像是條件機率、信賴區間等等都是這堂課會涵蓋的部分，除此之外還會進入一些高中沒接觸過的，像是各種Distribution、中央極限定理、假設檢定等等。</p>
-<p>這門機率的上課和考試模式跟高中數學課其實蠻像的，就是老師講觀念，偶爾帶例題，然後考試就計算題或應用題，幾乎沒有證明題。老師上課會配合投影片，投影片上就只有觀念，內容少且蠻好懂的。老師也會發作業，但是不算分，單純讓同學練習用，偏簡單、量也不大，所以很容易就會輕忽這門課的難度，這門課的期中期末絕對算是偏難的，今年兩次考試滿分都120，兩次平均分別是7x/5x。</p>
-<p>經過一些比較，隔壁洪一平班聽說比較佛，上課內容偏少，而且教得很仔細，上課也會一直帶題目練習，感覺比較適合我這種智商平庸的人去上QQ</p>
-<p>最後，講講Final Project好了，今年的Final Project是給我們兩組Dataset，分別叫我們在不同的限制下找到一組Subset來逼近母體的分布，然後要比Subset的分布和母體的分布的差異(某種Distance)，越小越好。最後會依回報的Distance的大小決定每組上台報告的分鐘數，除了報告之外，還得再繳交一份Report。Distance大小在評分中似乎不是最重要的，有沒有好好寫Report好像比較重要，像是附上一些數學分析好像就很加分(感謝隊友凱瑞Orz)，另外有沒有達到當初回報的Distance很重要，如果繳交的Subset達不到當初回報的Distance，會扣很多分。</p>
-<p>這門課整體而言，雖然考試和Final Project的難度都不低，但最後老師給分還是算蠻仁慈的，超過50%拿A-以上。</p>
-<h3 id="機器學習"><a href="#機器學習" class="headerlink" title="機器學習"></a>機器學習</h3><ul>
-<li>老師：李宏毅</li>
-<li>教材：<a target="_blank" rel="noopener" href="http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html">ML Homepage</a></li>
-<li>性質：電機選修</li>
-<li>評分：每份作業10分，15份作業挑10份最高的、小甜</li>
-</ul>
-<p>先說結論，這門課爆推大一大二修。</p>
-<p>我相信不少人都是因為AI的前景被騙進來讀資工系的吧XD，至少我滿感興趣的，但這方面的課程不被資工系的必修涵蓋，所以當初我沒選上離散(資工系大一選修，中籤率大概70%)，又在課程網上看到這門課的時候，我就決定要衝一波了。</p>
-<p>我當然還是有一些顧慮，當初我最擔心的就是沒有這門課所需要的先備知識，畢竟機器學習是建立在線代、機率之類的數學基礎之上。但事後看來，李宏毅教的這門ML幾乎沒有帶到艱澀的數學，頂多就一些些線代，像是在講PCA降維的時候。不過完全看不懂任何數學也是能穩穩通過這門課，因為這門課的作業都只是修改助教的Sample Code即可，要嘛調整架構、要嘛調整參數，最後在依每份作業Report上的問題，做一些實驗，跑一些數據就可以了。</p>
-<p>很多人可能會想知道這門課跟林軒田老師的機器學習(基石、技法)的差別，依我在系上的聽聞和Coursera的課程資訊，林軒田老師的ML比較著重在理論、數學基礎，而且講了比較多古典的ML技術(Decision Tree、SVM)，李宏毅老師的ML則幾乎全部都是Deep Learning，理論基礎也比較少，套句老師常講的話，就是「硬train一波」XD</p>
-<p>整體而言，這門課比較像是手把手地帶我們認識各種工具，因此非常適合作為機器學習(其實是深度學習)的入門課，甚至非常適合當作低年級摸索的概論式課程，上完這門課絕對會讓你對當今連小學生都朗朗上口的ML/DL有最基本的認識。</p>
-<h3 id="數位系統與實驗"><a href="#數位系統與實驗" class="headerlink" title="數位系統與實驗"></a>數位系統與實驗</h3><ul>
-<li>老師：林忠緯</li>
-<li>教材：自編簡報</li>
-<li>性質：資工選修</li>
-<li>評分：期中40%、期末40%、作業20%</li>
-</ul>
-<p>如果有認識電機系的同學的話，這門課其實就是他們的大一必修交換電路與邏輯設計。從最基礎的布林代數、邏輯閘、K-Map化簡，接著進入Combinational Circuit(也就是沒有記憶功能)，學期後半則是Latch、Flip-Flop和Sequential Circuit(也就是有記憶功能)等等。另外聽說單班計概(徐宏民)和這門課不小重疊，據說K-map、Flip-Flop等等內容其實在計概都講過了，不過恰好我沒上過計概，補一點這方面的知識也不錯。</p>
-<p>這堂課的教學精緻度是我這學期6門課中數一數二優秀的，除了老師本身就很會教課以外，老師錄製的教學影片水準也非常高，投影片本身就很完整，聲音大小和清晰度也是恰到好處，除此之外，老師連每週的習題解說也都錄成影片，這門課上起來非常地舒適。</p>
-<p>聽說林忠緯教授明年要教單班作業系統，所以這堂課明年大概就會換老師或消失了吧QQ，不過這也代表我又有林忠緯教授的課可以上了，耶XD</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://ypl891218.github.io/2020/07/26/%E5%8F%B0%E5%A4%A7%E8%B3%87%E5%B7%A5%20%E5%A4%A7%E4%B8%80%E4%B8%8B%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/" data-id="ckkj64vjr0002lrrp4wz123tt" data-title="台大資工 大一下修課心得" class="article-share-link">Share</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/" rel="tag">修課心得</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-台大資工 大一上修課心得" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/01/27/%E5%8F%B0%E5%A4%A7%E8%B3%87%E5%B7%A5%20%E5%A4%A7%E4%B8%80%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/" class="article-date">
-  <time class="dt-published" datetime="2020-01-27T06:35:48.000Z" itemprop="datePublished">2020-01-27</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/01/27/%E5%8F%B0%E5%A4%A7%E8%B3%87%E5%B7%A5%20%E5%A4%A7%E4%B8%80%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/">台大資工 大一上修課心得</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>近年來PTT不給辦帳號導致年輕用戶數驟減，因此ntucourse版也就少了很多課程評價文。網路上一直以來也只有少數幾篇探討台大資工系課程的文章，如<a target="_blank" rel="noopener" href="http://coderalo.logdown.com/posts/2016/12/24/want-to-study-computer-science-1">這篇</a>，所以我便想到說不定我可以來多提供一些觀點和經驗，順便紀錄一下我的大學生活。</p>
-<p>以下是我這學期修的課</p>
-<ul>
-<li>大學國文一</li>
-<li>微積分甲上</li>
-<li>普通物理學甲上</li>
-<li>計算機程式設計</li>
-<li>線性代數</li>
-<li>數學之美</li>
-<li>程式設計技巧</li>
-</ul>
-<h2 id="大學國文一"><a href="#大學國文一" class="headerlink" title="大學國文一"></a>大學國文一</h2><ul>
-<li>老師：侯潔之</li>
-<li>教材：史記&lt;伯夷列傳&gt;、&lt;呂后本紀&gt;、&lt;李廣列傳&gt;和各種古裝劇，佐以<a target="_blank" rel="noopener" href="https://docs.google.com/document/d/1bC9GiuVhHSM6LM6ZrrybPUL829bBy72tdoItKVRjt9o/edit?usp=sharing">一些電影</a>和幾場演講</li>
-<li>性質：共同必修</li>
-</ul>
-<p>這門國文課應該是我當初的第一志願，一學期過後，這門課的確有第一志願的水準。</p>
-<p>上完整個學期之後，可以看得出來老師有認真規劃整個學期的課程，無論是史記的篇章、期中期末的電影或是演講，都環繞在自我探索、自我了解的主軸。雖然主要的文本是史記，但老師並不會像國高中老師一樣把重點放在詞藻字句的註釋，往往在介紹一個歷史人物的時候，老師都能藉由個人的學識或輔以一些古裝劇來讓我們更了解這個人的背景和故事，蠻有趣的。</p>
-<p>而這門課最大的特點是，每堂課都會有兩三個討論時間，老師會拋出幾個問題，讓我們自行分組討論，而這些問題往往都是沒有標準答案的開放性問題，同學們時常能提出一些很跳脫框架的見解，或者是非常有條理地分享他們的理念，我幾乎每堂課都能被一兩位同學驚豔到。過去在鄉下，我以為我的表達能力算不錯的，不過在這門課，我清楚地了解到台大學生的平均素質有多高，而自己在表達能力在塊有多麼欠缺，這大概也是這門課帶給我最大的啟發之一吧。</p>
-<p>這門課的作業和期中期末幾乎就是平時討論的紙筆版本，都是針對開放式問題的論述題，考前只需要大致了解課文的劇情，剩下的就是寫作和表達能力了，不過老師給分也算大方，只要有條有理，文采不用太豐富，也能得到不錯的成績。</p>
-<h2 id="微積分甲上"><a href="#微積分甲上" class="headerlink" title="微積分甲上"></a>微積分甲上</h2><ul>
-<li>老師：楊策仲</li>
-<li>教材：<a target="_blank" rel="noopener" href="https://www.amazon.com/Calculus-Early-Transcendentals-James-Stewart/dp/1285741552">Calculus: Early Transcendentals 8th Edition</a></li>
-<li>性質：大一必修</li>
-</ul>
-<p>教授上課的內容基本上就是課本例題和考古題，很多人都說微積分其實不需要去上課，看交大OCW或其他開放式課程即可，但我還是乖乖去上了一學期，雖然我也不一定有在聽課。</p>
-<p>這學期的課大致上可以分成期中考前後兩部分，期中考前基本上都是極限、微分，期中考後則是積分技巧們，事後看來，這些東西如果在高三確定有大學之後，花點時間讀一讀，衝一波免修考，說不定就可以不需要修微積分甲上了。（台大免修考只能免一學期的微積分）</p>
-<p>這門課只有webwork、小考和期中期末，應付小考基本上只需要寫webwork跟一些課本題即可，期中期末的話就寫一些台大歷年的考古題，如果都乖乖地跟著進度走，應該就不會有太大的問題。</p>
-<h2 id="普通物理學甲上"><a href="#普通物理學甲上" class="headerlink" title="普通物理學甲上"></a>普通物理學甲上</h2><ul>
-<li>老師：林俊達</li>
-<li>教材：<a target="_blank" rel="noopener" href="https://tsanghai.com.tw/book_detail.php?c=264&no=3292">Principles of Physics: A Calculus Approach, 2nd Edition</a></li>
-<li>性質：大一必修</li>
-</ul>
-<p>這是我這學期花最少時間的科目之一，一方面因為普物有不少範圍都被高中範圍囊括，一方面是普物對資工系學生而言，就只是一個類似通識課的存在，並不是任何資工系課程的基礎。</p>
-<p>老師上課大部分的時間都著重從基礎概念推倒出各種物理性質的過程，但其實他都不考這些推演過程而且常常說「只要appreciate這個過程就好」，所以其實上課不需要聽也不會怎麼樣（誤，我是覺得如果只想應付考試，讀課本就行了啦。</p>
-<p>這門課只有期中期末和作業，作業分為手寫作業（4題課本題）和Python作業，loading個人覺得頗輕，期中期末也不難，只要認真讀過課本，稍微寫一些題目就能考得不錯。 </p>
-<h2 id="計算機程式設計"><a href="#計算機程式設計" class="headerlink" title="計算機程式設計"></a>計算機程式設計</h2><ul>
-<li>老師：劉邦鋒</li>
-<li>教材：<a target="_blank" rel="noopener" href="https://www.books.com.tw/products/0010833175">由片語學習C程式設計（第二版）</a></li>
-<li>性質：大一必修</li>
-</ul>
-<p>這應該是台大資工系幾乎所有大一生花最多時間的一科，這門課非常扎實，每週上機考並佔總成績6分，總共考18次，滿分108分，不調分。</p>
-<p>為了顧好這門課，很多人每週花上超過十個小時練習寫程式，而今年大約三方之一的同學沒有通過這門課，課堂上也很容易看到重修的學長姐們，如果沒有程式基礎的人絕對不能小看這門課。</p>
-<p>但如果是有程式基礎的人，非常推薦在學期初寄信給教授，說明自己的程度（通常學科能力競賽區域賽得名的程度即可？），應徵「真強者」，如此一來就只需要每週參與教授和助教們的出題會議和驗題，不需要參加每週的小考，便可以爽拿A+。這裡還有一個小小的好處跟大家分享，很多時候，我有些C的語法並不是特別熟，但是我可以慢慢查資料，但如果沒有擔任真強者的話，就得在小考的一個半小時內寫出來，而且不能上網查資料哈哈。</p>
-<h2 id="線性代數"><a href="#線性代數" class="headerlink" title="線性代數"></a>線性代數</h2><ul>
-<li>老師：呂學一</li>
-<li>教材：自編簡報</li>
-<li>性質：大二必修</li>
-</ul>
-<p>這其實是資工系的大二必修，但我覺得既然我不需要修計程也不需要修英文，我應該要多修一門課，課表才不會太空哈哈。而且這門課應該是大二上必修中，最不需要基礎也不會跟大一必修衝堂的一門課，所以如果以後有學弟妹覺得自己課表太空的話，非常推薦先修線代。</p>
-<p>經過一些了解，聽說李明穗教授的班似乎比較簡單，結果太多人想加簽，導致順位比較後面的本系大一生根本簽不到，於是我就修了呂學一的班，事後看來，聽說呂學一班今年的考試反而比較簡單（？</p>
-<p>呂學一教授上課只用他自己做的簡報，走的是抽象代數的風格，課程的主軸就是從最基本的向量群、純量場開始建構出向量空間，然後一步步疊出和證出各種線性代數的定理和性質，之前沒有受過相關訓練的話，可能要花點時間熟悉。另一方面教授第一堂課的時候，說他這學期風格會改變一些，會在學期末前盡量帶一些線代在CS的應用，為此呂學一教授今年進度上得很快，很多往年有教的內容都被跳過了，也是因為如此才可以在一學期內講到Singular Value Decomposition跟Generalized Eigenspace等內容。但其實最後因為時間實在不夠多，沒有提到任何線代在CS的應用，所以我想明年教授應該又會回復往年比較扎實的教法吧。</p>
-<p>可能因為進度快，然後我理解能力沒有那麼好，所以有些知識點我並沒有學得很透徹，這時候我都會看khan academy、MIT的Gilbert Strang和線代啟示錄等線上資源，前兩者的影片都非常好懂，非常推薦給大家。而網路上這些線上教材某種程度上彌補了沒有課本的問題，讓我對線代的理解更深刻一點，另外，如果我能重來一次，我應該會選擇買一本課本配著老師的簡報讀，學習起來應該會更順一點。 </p>
-<p>至於計分方式，三次期中取兩次，再加一次期末考，共三次成績，所以如果前兩次期中考就考很高的話，其實不用參加第三次期中考，不過今年我覺得老師在第三次期中考比起前兩次放特別多水，所以還是不要放棄任何一次機會比較好哈哈。至於考試內容幾乎都是上課的證明，所以只要熟讀簡報就能考得不錯。</p>
-<h2 id="數學之美"><a href="#數學之美" class="headerlink" title="數學之美"></a>數學之美</h2><ul>
-<li>老師：呂學一</li>
-<li>教材：自編簡報</li>
-<li>性質：A6通識/系選修</li>
-</ul>
-<p>這是我這學期覺得最推的一門課，不管是各個科系的人來修這門課，都能有所收穫，而且loading也不大。之所以說各個科系的人都能有所收穫，是因為這門課針對不同的科系，有不同的計分方式（每次考試有12題）：</p>
-<table>
-<thead>
-<tr>
-<th>必修微甲（模組班）</th>
-<th>必修微乙</th>
-<th>無微積分必修</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>取10題最高分</td>
-<td>取8題最高分</td>
-<td>取6題最高分</td>
-</tr>
-</tbody></table>
-<p>因此，對於不同科系的人，學習的目標自然就會有所區隔。</p>
-<p>對於沒有微積分必修的人而言，其實就把這門課當作一門輕鬆的通識即可，因為每次考試的第一題都是寫名子和科系，所以其實只需要再寫五題就能滿分，而每次考試都有不少題目是名詞解釋，或是跟投影片一模一樣沒有變化的題目，所以只要不是特別排斥數學的人，如果剛好又沒有微積分必修，我非常推薦這門課。</p>
-<p>至於必修微乙的科系，我不知道確切有哪些，不過我知道醫牙好像是，用醫牙的頭腦來應付這8題，這兩學分應該也是拿得很輕鬆。</p>
-<p>至於必修微甲的人，我覺得這門課還是值得修，因為這門課著墨到的數學，應該很難在一般的大學數學課中學到，像是質數無窮多、各個數系怎麼建構的、無限集合的大小等等主題，如果不是平常就愛看數學科普文章的話，應該都不會接觸到，另外，這門課也可以學到一點點證明的技巧。所以整體而言，我還是非常推薦這門課。</p>
-<h2 id="程式設計技巧（a-k-a-ICPC培訓班）"><a href="#程式設計技巧（a-k-a-ICPC培訓班）" class="headerlink" title="程式設計技巧（a.k.a. ICPC培訓班）"></a>程式設計技巧（a.k.a. ICPC培訓班）</h2><ul>
-<li>老師：鄭卜壬</li>
-<li>教材：無XD</li>
-<li>性質：系選修</li>
-</ul>
-<p>初選不開放，要在暑假先通過個人初選跟團體預賽才能拿到授權碼，這堂課最終的目標就是參加ICPC Regional和選出代表台大參加World Final的隊伍。</p>
-<p>入班門檻說高不高，今年初選的門檻是10題寫7題，我只寫了6題，卻候補進去了，事後發現也有4題的人候補進去，團體預賽也是每一隊都通過，所以只要願意嘗試，應該都有機會。</p>
-<p>不得不提每個禮拜六下午五小時的團練跟每週的作業loading非常重，如果要把作業寫完，大概得要每天都寫作業，剛開始沒有其他科的壓力之前我還能滿腔熱血寫作業，但後來各科的進度和壓力接踵而來的時候，就沒辦法挪出時間寫培訓班的作業了。</p>
-<p>這門課也因為沒有lecture，學習都只能靠自己或問人，所以除非高中就是競賽大神，我覺得要在ICPC Regional和這門課拿下不錯的成績可說是非常難，不然就得要在一般的課業之外，投入大把時間解題，才有辦法看到大神們的車尾燈。我覺得我這學期參加培訓班就跟我高中參加競賽的狀況沒有太大差別，都沒有投入太多時間，大部分時間都還是像高中一樣花在顧其他科的成績，個人覺得我這半年的成長也不大，其實滿可惜的，畢竟這跟我當初進入培訓班時的想像落差蠻大的。至於明年，除非我接下來半年投入很多精力在競程，不然我覺得二年級再以一個競程菜雞、CF藍人的身份參加一次的意義也不大。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://ypl891218.github.io/2020/01/27/%E5%8F%B0%E5%A4%A7%E8%B3%87%E5%B7%A5%20%E5%A4%A7%E4%B8%80%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/" data-id="ckkj64vjt0003lrrp5kpx25u8" data-title="台大資工 大一上修課心得" class="article-share-link">Share</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/" rel="tag">修課心得</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-First-Post" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/01/22/First-Post/" class="article-date">
-  <time class="dt-published" datetime="2020-01-22T15:13:40.000Z" itemprop="datePublished">2020-01-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/01/22/First-Post/">First Post</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>耶！我成功建起來了，希望這個Blog能活得夠久XD</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://ypl891218.github.io/2020/01/22/First-Post/" data-id="ckkj64vjp0001lrrpb4603mfm" data-title="First Post" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/" rel="tag">修課心得</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/" style="font-size: 10px;">修課心得</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">July 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2021/01/30/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2020/07/26/%E5%8F%B0%E5%A4%A7%E8%B3%87%E5%B7%A5%20%E5%A4%A7%E4%B8%80%E4%B8%8B%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/">台大資工 大一下修課心得</a>
-          </li>
-        
-          <li>
-            <a href="/2020/01/27/%E5%8F%B0%E5%A4%A7%E8%B3%87%E5%B7%A5%20%E5%A4%A7%E4%B8%80%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/">台大資工 大一上修課心得</a>
-          </li>
-        
-          <li>
-            <a href="/2020/01/22/First-Post/">First Post</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2021 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
 </nav>
-    
-
-
-<script src="/js/jquery-3.4.1.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
+        <div class="container">
+            <div class="hero">
+    <div class="hero-body has-text-centered">
+    <div class="box has-bg-shadow margin-bottom-8" style="border-radius: 10px">
+  <div class="media">
+    <figure class="image">
+      <img src="/img/cover.jpg" style="border-top-left-radius:10px;border-top-right-radius:10px;" alt="Hexo">
+    </figure>
   </div>
-</body>
+  <figure id="profile_pic" class="image is-128x128 has-image-centered">
+    <img class="is-rounded" src="/img/450x450/seira.jpg" alt="profile pic" style="background: white;padding: 4px">
+  </figure>
+  <div class="profile_info">
+    <h1 class="title is-3"> Hexo </h1>
+    <h2 class="subtitle is-6" style="margin-bottom: 0.8rem">  </h2>
+    <span class="button is-static is-small" style="border: unset"><span class="icon"><i class="fas fa-map-marker-alt"></i></span>&nbsp;Indonesia, West Borneo</span>
+  </div>
+</div>
+
+
+        <ul class="grid effect-8 main" id="grid">
+            
+                <li>   
+    <div class="work">
+        <figure class="image has-shadow-hover has-rounded-corner">
+            <a href="/2021/01/30/hello-world/">
+                <img src="/img/seira.jpg" class="has-rounded-corner" alt="Hello World"/>
+                <div class="caption has-rounded-corner">
+                    <div class="work_title">
+                        <h1 class="title is-6">Hello World</h1>
+                    </div>
+                </div>
+            </a>
+        </figure>
+    </div>
+</li>
+
+            
+                <li>   
+    <div class="work">
+        <figure class="image has-shadow-hover has-rounded-corner">
+            <a href="/2020/07/26/台大資工 大一下修課心得/">
+                <img src="images/108-2.jpg" class="has-rounded-corner" alt="台大資工 大一下修課心得"/>
+                <div class="caption has-rounded-corner">
+                    <div class="work_title">
+                        <h1 class="title is-6">台大資工 大一下修課心得</h1>
+                    </div>
+                </div>
+            </a>
+        </figure>
+    </div>
+</li>
+
+            
+                <li>   
+    <div class="work">
+        <figure class="image has-shadow-hover has-rounded-corner">
+            <a href="/2020/01/27/台大資工 大一上修課心得/">
+                <img src="images/108-1.jpg" class="has-rounded-corner" alt="台大資工 大一上修課心得"/>
+                <div class="caption has-rounded-corner">
+                    <div class="work_title">
+                        <h1 class="title is-6">台大資工 大一上修課心得</h1>
+                    </div>
+                </div>
+            </a>
+        </figure>
+    </div>
+</li>
+
+            
+                <li>   
+    <div class="work">
+        <figure class="image has-shadow-hover has-rounded-corner">
+            <a href="/2020/01/22/First-Post/">
+                <img src="images/109-1.jpg" class="has-rounded-corner" alt="First Post"/>
+                <div class="caption has-rounded-corner">
+                    <div class="work_title">
+                        <h1 class="title is-6">First Post</h1>
+                    </div>
+                </div>
+            </a>
+        </figure>
+    </div>
+</li>
+
+            
+        </ul>
+        
+    </div>
+</div>
+        </div>
+    </body>
+    <footer>
+        
+<div class="footer">
+    <div class="content has-text-centered">
+      <p>
+        &copy; 2018-2019 <a href="/">Hexo</a><br>
+        Powered by <a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a> and <a target="_blank" rel="noopener" href="https://bulma.io">Bulma</a><br>
+        Theme source code is on <a target="_blank" rel="noopener" href="https://github.com/sira313/hexo-theme-griddy">Github</a>
+      </p>
+    </div>
+</div>
+    </footer>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!-- Gallery -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<!-- masonry for gallery -->
+
+<script src="/js/app.js"></script>
+
+
+<script src="/js/masonry.pkgd.min.js"></script>
+
+
+<script src="/js/imagesloaded.js"></script>
+
+
+<script src="/js/classie.js"></script>
+
+
+<script src="/js/AnimOnScroll.js"></script>
+
+
+<script src="/js/AnimOnScroll.js"></script>
+
+<script>
+ var grid = document.getElementById( 'grid' );
+ if (grid) {
+	new AnimOnScroll(grid, {
+		minDuration : 0.4,
+		maxDuration : 0.7,
+		viewportFactor : 0.2
+	} );
+}
+</script>
+<!-- fontawesome -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/js/all.min.js"></script>
+<!-- comments -->
+
+
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-128493937-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
 </html>
